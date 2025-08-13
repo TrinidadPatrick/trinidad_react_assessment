@@ -1,12 +1,11 @@
-import { useState } from 'react'
+import CountryList from './pages/country_page/CountryList'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      
-    </>
+    <main className='w-full h-[100svh] '>
+      <CountryList />
+    </main>
   )
 }
 
